@@ -38,8 +38,8 @@ function concatenateArray() {
   let newArray = [
     { id: 5, name: "balveer", age: "24", profession: "SDE-I" },
     { id: 6, name: "suman", age: "26", profession: "manager" },
-    { id: 7, name: "vikash", age: "21", profession: "hacker" },
+    { id: 7, name: "vikash", age: "21", profession: "admin" },
   ];
-  let newData = arr.concat(newArray);
-  console.log(newData);
+  arr = arr.concat(newArray);
+  console.log(arr);
 }
